@@ -1,0 +1,105 @@
+.translation,
+.translation * {
+  box-sizing: border-box;
+}
+.translation {
+  background: #45bcd7;
+  border-radius: 70px;
+  height: 956px;
+  position: relative;
+  overflow: hidden;
+}
+.div {
+  border-radius: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: center;
+  justify-content: flex-start;
+  width: 249px;
+  height: 161px;
+  position: absolute;
+  left: 50%;
+  translate: -50%;
+  top: 213px;
+  box-shadow: inset -1px -3px 4px 0px rgba(255, 255, 255, 0.4),
+    0px 8px 13px 0px rgba(0, 0, 0, 0.25),
+    inset 4px 5px 6px 0px rgba(255, 255, 255, 0.4);
+  overflow: hidden;
+}
+.rectangle-3 {
+  background: rgba(0, 0, 0, 0.45);
+  flex-shrink: 0;
+  width: 401px;
+  height: 225px;
+  position: absolute;
+  left: -78px;
+  top: -26px;
+  backdrop-filter: blur(3.75px);
+}
+.group-63 {
+  flex-shrink: 0;
+  width: 215px;
+  height: 161px;
+  position: static;
+}
+.greece {
+  width: 154px;
+  height: 122px;
+  position: absolute;
+  left: 48px;
+  top: 0px;
+  object-fit: cover;
+}
+.div2 {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Joan-Regular", sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+  position: absolute;
+  left: 17px;
+  top: 122px;
+}
+.english {
+  border-radius: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: center;
+  justify-content: flex-start;
+  width: 249px;
+  height: 161px;
+  position: absolute;
+  left: 50%;
+  translate: -50%;
+  top: 558px;
+  box-shadow: inset -1px -3px 4px 0px rgba(255, 255, 255, 0.4),
+    0px 8px 13px 0px rgba(0, 0, 0, 0.25),
+    inset 4px 5px 6px 0px rgba(255, 255, 255, 0.4);
+  overflow: hidden;
+}
+.group-632 {
+  flex-shrink: 0;
+  width: 163px;
+  height: 163px;
+  position: static;
+}
+.united-kingdom {
+  width: 154px;
+  height: 122px;
+  position: absolute;
+  left: 52px;
+  top: 0px;
+  object-fit: cover;
+}
+.english-menu {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Neonderthaw-Regular", sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+  position: absolute;
+  left: 43px;
+  top: 122px;
+}
