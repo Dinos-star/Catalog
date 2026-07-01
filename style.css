@@ -1,27 +1,118 @@
-.translation,
-.translation * {
+.main-menu,
+.main-menu * {
   box-sizing: border-box;
 }
-.translation {
+.main-menu {
   background: #45bcd7;
   border-radius: 70px;
   height: 956px;
   position: relative;
   overflow: hidden;
 }
+.cancel-frame {
+  border-radius: 80px;
+  opacity: 0.8;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 96px;
+  height: 86px;
+  position: absolute;
+  left: 470px;
+  top: 24px;
+  box-shadow: inset -1px -3px 4px 0px rgba(255, 255, 255, 0.4),
+    0px 8px 13px 0px rgba(0, 0, 0, 0.25),
+    inset 4px 5px 6px 0px rgba(255, 255, 255, 0.4);
+  overflow: hidden;
+}
+.ellipse-7 {
+  background: rgba(0, 0, 0, 0.45);
+  border-radius: 50%;
+  flex-shrink: 0;
+  width: 123px;
+  height: 102px;
+  position: absolute;
+  left: -14px;
+  top: -8px;
+  backdrop-filter: blur(3.75px);
+}
+.cancel {
+  align-self: stretch;
+  flex-shrink: 0;
+  height: 66px;
+  position: relative;
+  object-fit: cover;
+}
+.frame {
+  position: absolute;
+  inset: 0;
+}
+.frame2 {
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: center;
+  justify-content: flex-start;
+  width: 157px;
+  position: absolute;
+  left: -243px;
+  top: 614px;
+  box-shadow: inset -1px -3px 4px 0px rgba(255, 255, 255, 0.4),
+    0px 8px 13px 0px rgba(0, 0, 0, 0.25),
+    inset 4px 5px 6px 0px rgba(255, 255, 255, 0.4);
+  overflow: hidden;
+}
+.rectangle-5 {
+  background: rgba(0, 0, 0, 0.45);
+  flex-shrink: 0;
+  width: 194px;
+  height: 123px;
+  position: absolute;
+  left: -18px;
+  top: -12px;
+  backdrop-filter: blur(3.75px);
+}
+.group-66 {
+  flex-shrink: 0;
+  width: 157px;
+  height: 98px;
+  position: static;
+}
+.info {
+  width: 76px;
+  height: 66px;
+  position: absolute;
+  left: 40.5px;
+  top: 0px;
+  object-fit: cover;
+}
 .div {
+  color: #ffffff;
+  text-align: center;
+  font-family: "Joan-Regular", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+  position: absolute;
+  left: 0px;
+  top: 66px;
+  width: 157px;
+}
+.frame3 {
   border-radius: 40px;
   display: flex;
   flex-direction: column;
   gap: 0px;
   align-items: center;
   justify-content: flex-start;
-  width: 249px;
-  height: 161px;
+  width: 246px;
+  height: 132px;
   position: absolute;
-  left: 50%;
-  translate: -50%;
-  top: 213px;
+  left: -287px;
+  top: 244px;
   box-shadow: inset -1px -3px 4px 0px rgba(255, 255, 255, 0.4),
     0px 8px 13px 0px rgba(0, 0, 0, 0.25),
     inset 4px 5px 6px 0px rgba(255, 255, 255, 0.4);
@@ -31,75 +122,4428 @@
   background: rgba(0, 0, 0, 0.45);
   flex-shrink: 0;
   width: 401px;
-  height: 225px;
+  height: 185px;
   position: absolute;
   left: -78px;
   top: -26px;
   backdrop-filter: blur(3.75px);
 }
-.group-63 {
+.group-64 {
   flex-shrink: 0;
-  width: 215px;
-  height: 161px;
+  width: 246px;
+  height: 129px;
   position: static;
 }
-.greece {
-  width: 154px;
-  height: 122px;
+._02-cash {
+  width: 76px;
+  height: 66px;
   position: absolute;
-  left: 48px;
+  left: 85px;
   top: 0px;
   object-fit: cover;
 }
 .div2 {
   color: #ffffff;
-  text-align: left;
+  text-align: center;
   font-family: "Joan-Regular", sans-serif;
-  font-size: 30px;
+  font-size: 25px;
   font-weight: 400;
   position: absolute;
-  left: 17px;
-  top: 122px;
+  left: 0px;
+  top: 66px;
+  width: 246px;
+  height: 63px;
 }
-.english {
-  border-radius: 40px;
+.frame4 {
+  border-radius: 20px;
   display: flex;
   flex-direction: column;
   gap: 0px;
   align-items: center;
   justify-content: flex-start;
-  width: 249px;
-  height: 161px;
+  width: 141px;
   position: absolute;
-  left: 50%;
-  translate: -50%;
-  top: 558px;
+  left: -235px;
+  top: 446px;
   box-shadow: inset -1px -3px 4px 0px rgba(255, 255, 255, 0.4),
     0px 8px 13px 0px rgba(0, 0, 0, 0.25),
     inset 4px 5px 6px 0px rgba(255, 255, 255, 0.4);
   overflow: hidden;
 }
-.group-632 {
+.rectangle-4 {
+  background: rgba(0, 0, 0, 0.45);
   flex-shrink: 0;
-  width: 163px;
-  height: 163px;
+  width: 214px;
+  height: 139px;
+  position: absolute;
+  left: -36px;
+  top: -20px;
+  backdrop-filter: blur(3.75px);
+}
+.group-65 {
+  flex-shrink: 0;
+  width: 141px;
+  height: 98px;
   position: static;
 }
-.united-kingdom {
-  width: 154px;
-  height: 122px;
+.language-exchange {
+  width: 76px;
+  height: 66px;
   position: absolute;
-  left: 52px;
+  left: 32.5px;
   top: 0px;
   object-fit: cover;
 }
-.english-menu {
+.div3 {
   color: #ffffff;
-  text-align: left;
-  font-family: "Neonderthaw-Regular", sans-serif;
-  font-size: 30px;
+  text-align: center;
+  font-family: "Joan-Regular", sans-serif;
+  font-size: 25px;
   font-weight: 400;
   position: absolute;
-  left: 43px;
-  top: 122px;
+  left: 0px;
+  top: 66px;
+  width: 141px;
+}
+.pizza-menu {
+  background: #45bcd7;
+  border-radius: 70px;
+  width: 440px;
+  height: 956px;
+  position: absolute;
+  left: 50%;
+  translate: -50% -50%;
+  top: 50%;
+  overflow: hidden;
+}
+.back-to-top {
+  border-radius: 70px;
+  width: 302px;
+  height: 41px;
+  position: absolute;
+  left: 69px;
+  top: 729px;
+  box-shadow: inset -1px -3px 4px 0px rgba(255, 255, 255, 0.4),
+    0px 8px 13px 0px rgba(0, 0, 0, 0.25),
+    inset 4px 5px 6px 0px rgba(255, 255, 255, 0.4);
+  overflow: hidden;
+}
+.rectangle-6 {
+  background: rgba(0, 0, 0, 0.45);
+  width: 312px;
+  height: 63px;
+  position: absolute;
+  left: 1px;
+  top: -11px;
+  backdrop-filter: blur(3.75px);
+}
+.back-to-top-frame {
+  position: absolute;
+  inset: 0;
+}
+.slide-up {
+  width: 50px;
+  height: 41px;
+  position: absolute;
+  left: -4px;
+  top: 0px;
+  object-fit: cover;
+}
+.div4 {
+  color: #ffffff;
+  text-align: center;
+  font-family: "Joan-Regular", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+  position: absolute;
+  left: 62px;
+  top: 6px;
+  width: 218px;
+  height: 27.91px;
+}
+.navigation-menu-bar {
+  background: rgba(0, 0, 0, 0.45);
+  border-radius: 70px;
+  width: 440px;
+  height: 134px;
+  position: absolute;
+  left: 50%;
+  translate: -50%;
+  top: 0px;
+  box-shadow: inset -1px -3px 4px 0px rgba(0, 0, 0, 0.4),
+    0px 8px 13px 0px rgba(0, 0, 0, 0.25),
+    inset 4px 5px 6px 0px rgba(0, 0, 0, 0.4);
+}
+.menu {
+  color: #ffffff;
+  text-align: center;
+  font-family: "Neonderthaw-Regular", sans-serif;
+  font-size: 100px;
+  font-weight: 400;
+  position: absolute;
+  right: 27.27%;
+  left: 27.27%;
+  width: 45.45%;
+  bottom: 25.37%;
+  top: 11.94%;
+  height: 62.69%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.sidebar {
+  border-radius: 80px;
+  opacity: 0.8;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 13.64%;
+  height: 44.78%;
+  position: absolute;
+  right: 80%;
+  left: 6.36%;
+  bottom: 28.36%;
+  top: 26.87%;
+  box-shadow: inset -1px -3px 4px 0px rgba(255, 255, 255, 0.4),
+    0px 8px 13px 0px rgba(0, 0, 0, 0.25),
+    inset 4px 5px 6px 0px rgba(255, 255, 255, 0.4);
+  overflow: hidden;
+}
+.ellipse-72 {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+  flex-shrink: 0;
+  width: 101px;
+  height: 81px;
+  position: absolute;
+  left: -21px;
+  top: -10px;
+  backdrop-filter: blur(3.75px);
+}
+.menu2 {
+  flex-shrink: 0;
+  width: 40px;
+  height: 40px;
+  position: relative;
+  object-fit: cover;
+}
+.food-bar {
+  width: 440px;
+  height: 158px;
+  position: absolute;
+  left: 0px;
+  top: 782px;
+  overflow-x: auto;
+}
+.glass {
+  border-radius: 70px;
+  width: 145px;
+  height: 142px;
+  position: absolute;
+  left: 1485px;
+  top: 8px;
+  box-shadow: inset -1px -3px 4px 0px rgba(255, 255, 255, 0.4),
+    0px 8px 13px 0px rgba(0, 0, 0, 0.25),
+    inset 4px 5px 6px 0px rgba(255, 255, 255, 0.4);
+  overflow: hidden;
+}
+.ellipse-8 {
+  background: rgba(0, 0, 0, 0.45);
+  border-radius: 50%;
+  width: 188px;
+  height: 163px;
+  position: absolute;
+  left: 50%;
+  translate: -50% -50%;
+  top: 50%;
+  backdrop-filter: blur(3.75px);
+}
+.beer {
+  width: 63px;
+  height: 95px;
+  position: absolute;
+  left: 41px;
+  top: 0px;
+  object-fit: cover;
+}
+.div5 {
+  color: #ffffff;
+  text-align: center;
+  font-family: "Joan-Regular", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+  position: absolute;
+  left: 26px;
+  top: 95px;
+  width: 94.6px;
+}
+.glass2 {
+  border-radius: 70px;
+  width: 145px;
+  height: 142px;
+  position: absolute;
+  left: 1320px;
+  top: 8px;
+  box-shadow: inset -1px -3px 4px 0px rgba(255, 255, 255, 0.4),
+    0px 8px 13px 0px rgba(0, 0, 0, 0.25),
+    inset 4px 5px 6px 0px rgba(255, 255, 255, 0.4);
+  overflow: hidden;
+}
+.beer-can {
+  width: 55px;
+  height: 99px;
+  position: absolute;
+  left: 45px;
+  top: 0px;
+  object-fit: cover;
+}
+.div6 {
+  color: #ffffff;
+  text-align: center;
+  font-family: "Joan-Regular", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+  position: absolute;
+  left: 39px;
+  top: 99px;
+  width: 67.1px;
+}
+.glass3 {
+  border-radius: 70px;
+  width: 145px;
+  height: 142px;
+  position: absolute;
+  left: 1155px;
+  top: 8px;
+  box-shadow: inset -1px -3px 4px 0px rgba(255, 255, 255, 0.4),
+    0px 8px 13px 0px rgba(0, 0, 0, 0.25),
+    inset 4px 5px 6px 0px rgba(255, 255, 255, 0.4);
+  overflow: hidden;
+}
+.spoon-and-fork {
+  width: 106px;
+  height: 92px;
+  position: absolute;
+  left: 20px;
+  top: 0px;
+  object-fit: cover;
+}
+.div7 {
+  color: #ffffff;
+  text-align: center;
+  font-family: "Joan-Regular", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+  position: absolute;
+  left: 20px;
+  top: 92px;
+  width: 106px;
+}
+.glass4 {
+  border-radius: 70px;
+  width: 145px;
+  height: 142px;
+  position: absolute;
+  left: 990px;
+  top: 8px;
+  box-shadow: inset -1px -3px 4px 0px rgba(255, 255, 255, 0.4),
+    0px 8px 13px 0px rgba(0, 0, 0, 0.25),
+    inset 4px 5px 6px 0px rgba(255, 255, 255, 0.4);
+  overflow: hidden;
+}
+.pasta {
+  width: 129px;
+  height: 80px;
+  position: absolute;
+  left: 8px;
+  top: 6px;
+  object-fit: cover;
+}
+.div8 {
+  color: #ffffff;
+  text-align: center;
+  font-family: "Joan-Regular", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+  position: absolute;
+  left: 16px;
+  top: 86px;
+  width: 113px;
+}
+.pizza-glass {
+  border-radius: 70px;
+  width: 145px;
+  height: 142px;
+  position: absolute;
+  left: 825px;
+  top: 8px;
+  box-shadow: inset -1px -3px 4px 0px rgba(255, 255, 255, 0.4),
+    0px 8px 13px 0px rgba(0, 0, 0, 0.25),
+    inset 4px 5px 6px 0px rgba(255, 255, 255, 0.4);
+  overflow: hidden;
+}
+.pizza {
+  width: 110px;
+  height: 86px;
+  position: absolute;
+  left: 18px;
+  top: 7px;
+  object-fit: cover;
+}
+.pizza2 {
+  color: #ffffff;
+  text-align: center;
+  font-family: "Joan-Regular", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+  position: absolute;
+  left: 42px;
+  top: 93px;
+  width: 62.7px;
+}
+.glass5 {
+  border-radius: 70px;
+  width: 145px;
+  height: 142px;
+  position: absolute;
+  left: 660px;
+  top: 8px;
+  box-shadow: inset -1px -3px 4px 0px rgba(255, 255, 255, 0.4),
+    0px 8px 13px 0px rgba(0, 0, 0, 0.25),
+    inset 4px 5px 6px 0px rgba(255, 255, 255, 0.4);
+  overflow: hidden;
+}
+.baby-face {
+  width: 89px;
+  height: 71px;
+  position: absolute;
+  left: 28px;
+  top: 6px;
+  object-fit: cover;
+}
+.div9 {
+  color: #ffffff;
+  text-align: center;
+  font-family: "Joan-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  position: absolute;
+  left: 28px;
+  top: 77px;
+  width: 89px;
+  height: 50px;
+}
+.glass6 {
+  border-radius: 70px;
+  width: 145px;
+  height: 142px;
+  position: absolute;
+  left: 495px;
+  top: 8px;
+  box-shadow: inset -1px -3px 4px 0px rgba(255, 255, 255, 0.4),
+    0px 8px 13px 0px rgba(0, 0, 0, 0.25),
+    inset 4px 5px 6px 0px rgba(255, 255, 255, 0.4);
+  overflow: hidden;
+}
+._1 {
+  width: 127px;
+  height: 81px;
+  position: absolute;
+  left: 9px;
+  top: 11px;
+  object-fit: cover;
+}
+.div10 {
+  color: #ffffff;
+  text-align: center;
+  font-family: "Joan-Regular", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+  position: absolute;
+  left: 13px;
+  top: 92px;
+  width: 120px;
+  height: 32px;
+}
+.glass7 {
+  border-radius: 70px;
+  width: 145px;
+  height: 142px;
+  position: absolute;
+  left: 330px;
+  top: 8px;
+  box-shadow: inset -1px -3px 4px 0px rgba(255, 255, 255, 0.4),
+    0px 8px 13px 0px rgba(0, 0, 0, 0.25),
+    inset 4px 5px 6px 0px rgba(255, 255, 255, 0.4);
+  overflow: hidden;
+}
+.div11 {
+  color: #ffffff;
+  text-align: center;
+  font-family: "Joan-Regular", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+  position: absolute;
+  left: 20px;
+  top: 92px;
+  width: 105px;
+}
+.club {
+  width: 127px;
+  height: 81px;
+  position: absolute;
+  left: 9px;
+  top: 11px;
+  object-fit: cover;
+}
+.glass8 {
+  border-radius: 70px;
+  width: 145px;
+  height: 142px;
+  position: absolute;
+  left: 165px;
+  top: 8px;
+  box-shadow: inset -1px -3px 4px 0px rgba(255, 255, 255, 0.4),
+    0px 8px 13px 0px rgba(0, 0, 0, 0.25),
+    inset 4px 5px 6px 0px rgba(255, 255, 255, 0.4);
+  overflow: hidden;
+}
+.salates {
+  width: 127px;
+  height: 81px;
+  position: absolute;
+  left: 9px;
+  top: 13px;
+  object-fit: cover;
+}
+.div12 {
+  color: #ffffff;
+  text-align: center;
+  font-family: "Joan-Regular", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+  position: absolute;
+  left: 8px;
+  top: 94px;
+  width: 129px;
+}
+.glass9 {
+  border-radius: 70px;
+  width: 145px;
+  height: 142px;
+  position: absolute;
+  left: 0px;
+  top: 8px;
+  box-shadow: inset -1px -3px 4px 0px rgba(255, 255, 255, 0.4),
+    0px 8px 13px 0px rgba(0, 0, 0, 0.25),
+    inset 4px 5px 6px 0px rgba(255, 255, 255, 0.4);
+  overflow: hidden;
+}
+.skordopsomo {
+  width: 127px;
+  height: 81px;
+  position: absolute;
+  left: 9px;
+  top: 13px;
+  object-fit: cover;
+}
+.div13 {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Joan-Regular", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+  position: absolute;
+  left: 20px;
+  top: 94px;
+  width: 114px;
+  height: 26px;
+}
+.main-menu-frame {
+  width: 402px;
+  height: 583px;
+  position: absolute;
+  left: 50%;
+  translate: -50%;
+  top: 134px;
+  overflow-y: auto;
+}
+.main-menu2 {
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+  align-items: center;
+  justify-content: flex-start;
+  width: 392.24px;
+  position: absolute;
+  left: 5px;
+  top: 30px;
+}
+.frame5 {
+  flex-shrink: 0;
+  width: 189px;
+  height: 53.46px;
+  position: static;
+}
+.div14 {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Italiana-Regular", sans-serif;
+  font-size: 40px;
+  font-weight: 400;
+  position: absolute;
+  left: 101.62px;
+  top: 0px;
+  width: 189px;
+  height: 53.46px;
+}
+._4-2-70 {
+  color: #ffffff;
+  text-align: center;
+  position: relative;
+  align-self: stretch;
+  height: 165.46px;
+}
+._4-2-70-span {
+  font-family: "Joan-Regular", sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+}
+._4-2-70-span2 {
+  font-family: "Joan-Regular", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+}
+._4-2-70-span3 {
+  font-family: "Lalezar-Regular", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+}
+._4-3-10 {
+  color: #ffffff;
+  text-align: center;
+  position: relative;
+  align-self: stretch;
+  height: 182.45px;
+}
+._4-3-10-span {
+  font-family: "Joan-Regular", sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+}
+._4-3-10-span2 {
+  font-family: "Joan-Regular", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+}
+._4-3-10-span3 {
+  font-family: "Lalezar-Regular", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+}
+._4-3-30 {
+  color: #ffffff;
+  text-align: center;
+  position: relative;
+  align-self: stretch;
+  height: 253.85px;
+}
+._4-3-30-span {
+  font-family: "Joan-Regular", sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+}
+._4-3-30-span2 {
+  font-family: "Joan-Regular", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+}
+._4-3-30-span3 {
+  font-family: "Lalezar-Regular", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+}
+.special-4-3-80 {
+  color: #ffffff;
+  text-align: center;
+  position: relative;
+  align-self: stretch;
+  height: 211.92px;
+}
+.special-4-3-80-span {
+  font-family: "Joan-Regular", sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+}
+.special-4-3-80-span2 {
+  font-family: "Joan-Regular", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+}
+.special-4-3-80-span3 {
+  font-family: "Lalezar-Regular", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+}
+.sweet-chili-6-10 {
+  color: #ffffff;
+  text-align: center;
+  position: relative;
+  align-self: stretch;
+  height: 151.86px;
+}
+.sweet-chili-6-10-span {
+  font-family: "Joan-Regular", sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+}
+.sweet-chili-6-10-span2 {
+  font-family: "Joan-Regular", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+}
+.sweet-chili-6-10-span3 {
+  font-family: "Lalezar-Regular", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+}
+._4-00 {
+  color: #ffffff;
+  text-align: center;
+  position: relative;
+  align-self: stretch;
+  height: 105.39px;
+}
+._4-00-span {
+  font-family: "Joan-Regular", sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+}
+._4-00-span2 {
+  font-family: "Lalezar-Regular", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+}
+._0-60 {
+  color: #ffffff;
+  text-align: center;
+  position: relative;
+  align-self: stretch;
+  height: 106.53px;
+}
+._0-60-span {
+  font-family: "Joan-Regular", sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+}
+._0-60-span2 {
+  font-family: "Lalezar-Regular", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+}
+.div15 {
+  color: #ffffff;
+  text-align: center;
+  font-family: "Lalezar-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  position: relative;
+  align-self: stretch;
+  height: 70.26px;
+}
+.frame6 {
+  flex-shrink: 0;
+  width: 163px;
+  height: 55.56px;
+  position: static;
+}
+.div16 {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Joan-Regular", sans-serif;
+  font-size: 40px;
+  font-weight: 400;
+  position: absolute;
+  left: 114.62px;
+  top: 1841.18px;
+  width: 163px;
+  height: 55.56px;
+}
+._7-20 {
+  color: #ffffff;
+  text-align: center;
+  position: relative;
+  align-self: stretch;
+  height: 250.45px;
+}
+._7-20-span {
+  font-family: "Joan-Regular", sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+}
+._7-20-span2 {
+  font-family: "Joan-Regular", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+}
+._7-20-span3 {
+  font-family: "Lalezar-Regular", sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+}
+._7-70 {
+  color: #ffffff;
+  text-align: center;
+  position: relative;
+  align-self: stretch;
+  height: 198.13px;
+}
+._7-70-span {
+  font-family: "Joan-Regular", sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+}
+._7-70-span2 {
+  font-family: "Joan-Regular", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+}
+._7-70-span3 {
+  font-family: "Lalezar-Regular", sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+}
+._7-702 {
+  color: #ffffff;
+  text-align: center;
+  position: relative;
+  align-self: stretch;
+  height: 214.19px;
+}
+._7-702-span {
+  font-family: "Joan-Regular", sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+}
+._7-702-span2 {
+  font-family: "Joan-Regular", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+}
+._7-702-span3 {
+  font-family: "Lalezar-Regular", sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+}
+._7-702-span {
+  font-family: "Joan-Regular", sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+}
+._7-702-span2 {
+  font-family: "Joan-Regular", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+}
+._7-702-span3 {
+  font-family: "Lalezar-Regular", sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+}
+._7-703 {
+  color: #ffffff;
+  text-align: center;
+  position: relative;
+  align-self: stretch;
+  height: 177.92px;
+}
+._7-703-span {
+  font-family: "Joan-Regular", sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+}
+._7-703-span2 {
+  font-family: "Joan-Regular", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+}
+._7-703-span3 {
+  font-family: "Lalezar-Regular", sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+}
+.div17 {
+  color: #ffffff;
+  text-align: center;
+  font-family: "Lalezar-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  position: relative;
+  align-self: stretch;
+  height: 35.13px;
+}
+.club-frame {
+  flex-shrink: 0;
+  width: 149px;
+  height: 54.51px;
+  position: static;
+}
+.div18 {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Joan-Regular", sans-serif;
+  font-size: 40px;
+  font-weight: 400;
+  position: absolute;
+  left: 121.62px;
+  top: 3406.74px;
+  width: 149px;
+  height: 54.51px;
+}
+.club-sandwich-3-fouantre-fouantre-sauce-ethnic-7-70 {
+  color: #ffffff;
+  text-align: center;
+  position: relative;
+  width: 392px;
+  height: 254px;
+}
+.club-sandwich-3-fouantre-fouantre-sauce-ethnic-7-70-span {
+  font-family: "Joan-Regular", sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+}
+.club-sandwich-3-fouantre-fouantre-sauce-ethnic-7-70-span2 {
+  font-family: "Joan-Regular", sans-serif;
+  font-size: 40px;
+  font-weight: 400;
+}
+.club-sandwich-3-fouantre-fouantre-sauce-ethnic-7-70-span3 {
+  font-family: "Joan-Regular", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+}
+.club-sandwich-3-fouantre-fouantre-sauce-ethnic-7-70-span4 {
+  font-family: "Lalezar-Regular", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+}
+.club-plain-10-70 {
+  color: #ffffff;
+  text-align: center;
+  position: relative;
+  align-self: stretch;
+  height: 85.96px;
+}
+.club-plain-10-70-span {
+  font-family: "Joan-Regular", sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+}
+.club-plain-10-70-span2 {
+  font-family: "Joan-Regular", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+}
+.club-plain-10-70-span3 {
+  font-family: "Lalezar-Regular", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+}
+.club-mexican-11-10 {
+  color: #ffffff;
+  text-align: center;
+  position: relative;
+  align-self: stretch;
+  height: 85.96px;
+}
+.club-mexican-11-10-span {
+  font-family: "Joan-Regular", sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+}
+.club-mexican-11-10-span2 {
+  font-family: "Joan-Regular", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+}
+.club-mexican-11-10-span3 {
+  font-family: "Lalezar-Regular", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+}
+.club-greek-land-11-10 {
+  color: #ffffff;
+  text-align: center;
+  position: relative;
+  align-self: stretch;
+  height: 85.96px;
+}
+.club-greek-land-11-10-span {
+  font-family: "Joan-Regular", sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+}
+.club-greek-land-11-10-span2 {
+  font-family: "Joan-Regular", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+}
+.club-greek-land-11-10-span3 {
+  font-family: "Lalezar-Regular", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+}
+.club-ham-bacon-mushroom-11-10 {
+  color: #ffffff;
+  text-align: center;
+  position: relative;
+  align-self: stretch;
+  height: 121px;
+}
+.club-ham-bacon-mushroom-11-10-span {
+  font-family: "Joan-Regular", sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+}
+.club-ham-bacon-mushroom-11-10-span2 {
+  font-family: "Joan-Regular", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+}
+.club-ham-bacon-mushroom-11-10-span3 {
+  font-family: "Lalezar-Regular", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+}
+.club-vegeterian-11-10 {
+  color: #ffffff;
+  text-align: center;
+  position: relative;
+  align-self: stretch;
+  height: 82px;
+}
+.club-vegeterian-11-10-span {
+  font-family: "Joan-Regular", sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+}
+.club-vegeterian-11-10-span2 {
+  font-family: "Joan-Regular", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+}
+.club-vegeterian-11-10-span3 {
+  font-family: "Lalezar-Regular", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+}
+.club-pepperoni-11-10 {
+  color: #ffffff;
+  text-align: center;
+  position: relative;
+  align-self: stretch;
+  height: 82px;
+}
+.club-pepperoni-11-10-span {
+  font-family: "Joan-Regular", sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+}
+.club-pepperoni-11-10-span2 {
+  font-family: "Joan-Regular", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+}
+.club-pepperoni-11-10-span3 {
+  font-family: "Lalezar-Regular", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+}
+.club-hot-land-11-10 {
+  color: #ffffff;
+  text-align: center;
+  position: relative;
+  align-self: stretch;
+  height: 82px;
+}
+.club-hot-land-11-10-span {
+  font-family: "Joan-Regular", sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+}
+.club-hot-land-11-10-span2 {
+  font-family: "Joan-Regular", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+}
+.club-hot-land-11-10-span3 {
+  font-family: "Lalezar-Regular", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+}
+.club-ham-11-10 {
+  color: #ffffff;
+  text-align: center;
+  position: relative;
+  align-self: stretch;
+  height: 82px;
+}
+.club-ham-11-10-span {
+  font-family: "Joan-Regular", sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+}
+.club-ham-11-10-span2 {
+  font-family: "Joan-Regular", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+}
+.club-ham-11-10-span3 {
+  font-family: "Lalezar-Regular", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+}
+.club-ham-bacon-11-10 {
+  color: #ffffff;
+  text-align: center;
+  position: relative;
+  align-self: stretch;
+  height: 82px;
+}
+.club-ham-bacon-11-10-span {
+  font-family: "Joan-Regular", sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+}
+.club-ham-bacon-11-10-span2 {
+  font-family: "Joan-Regular", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+}
+.club-ham-bacon-11-10-span3 {
+  font-family: "Lalezar-Regular", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+}
+.club-special-classic-11-10 {
+  color: #ffffff;
+  text-align: center;
+  position: relative;
+  align-self: stretch;
+  height: 82px;
+}
+.club-special-classic-11-10-span {
+  font-family: "Joan-Regular", sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+}
+.club-special-classic-11-10-span2 {
+  font-family: "Joan-Regular", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+}
+.club-special-classic-11-10-span3 {
+  font-family: "Lalezar-Regular", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+}
+.club-11-10 {
+  color: #ffffff;
+  text-align: center;
+  position: relative;
+  align-self: stretch;
+  height: 121px;
+}
+.club-11-10-span {
+  font-family: "Joan-Regular", sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+}
+.club-11-10-span2 {
+  font-family: "Joan-Regular", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+}
+.club-11-10-span3 {
+  font-family: "Lalezar-Regular", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+}
+.club-11-102 {
+  color: #ffffff;
+  text-align: center;
+  position: relative;
+  align-self: stretch;
+  height: 112px;
+}
+.club-11-102-span {
+  font-family: "Joan-Regular", sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+}
+.club-11-102-span2 {
+  font-family: "Joan-Regular", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+}
+.club-11-102-span3 {
+  font-family: "Lalezar-Regular", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+}
+.club-11-103 {
+  color: #ffffff;
+  text-align: center;
+  position: relative;
+  align-self: stretch;
+  height: 82px;
+}
+.club-11-103-span {
+  font-family: "Joan-Regular", sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+}
+.club-11-103-span2 {
+  font-family: "Joan-Regular", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+}
+.club-11-103-span3 {
+  font-family: "Lalezar-Regular", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+}
+.club-11-103-span {
+  font-family: "Joan-Regular", sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+}
+.club-11-103-span2 {
+  font-family: "Joan-Regular", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+}
+.club-11-103-span3 {
+  font-family: "Lalezar-Regular", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+}
+.club-11-103-span {
+  font-family: "Joan-Regular", sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+}
+.club-11-103-span2 {
+  font-family: "Joan-Regular", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+}
+.club-11-103-span3 {
+  font-family: "Lalezar-Regular", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+}
+.club-11-103-span {
+  font-family: "Joan-Regular", sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+}
+.club-11-103-span2 {
+  font-family: "Joan-Regular", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+}
+.club-11-103-span3 {
+  font-family: "Lalezar-Regular", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+}
+.club-11-103-span {
+  font-family: "Joan-Regular", sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+}
+.club-11-103-span2 {
+  font-family: "Joan-Regular", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+}
+.club-11-103-span3 {
+  font-family: "Lalezar-Regular", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+}
+.club-roma-11-90 {
+  color: #ffffff;
+  text-align: center;
+  position: relative;
+  align-self: stretch;
+  height: 82px;
+}
+.club-roma-11-90-span {
+  font-family: "Joan-Regular", sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+}
+.club-roma-11-90-span2 {
+  font-family: "Joan-Regular", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+}
+.club-roma-11-90-span3 {
+  font-family: "Lalezar-Regular", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+}
+.club-11-90 {
+  color: #ffffff;
+  text-align: center;
+  position: relative;
+  align-self: stretch;
+  height: 82px;
+}
+.club-11-90-span {
+  font-family: "Joan-Regular", sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+}
+.club-11-90-span2 {
+  font-family: "Joan-Regular", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+}
+.club-11-90-span3 {
+  font-family: "Lalezar-Regular", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+}
+.club-all-star-cheese-11-90 {
+  color: #ffffff;
+  text-align: center;
+  position: relative;
+  align-self: stretch;
+  height: 82px;
+}
+.club-all-star-cheese-11-90-span {
+  font-family: "Joan-Regular", sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+}
+.club-all-star-cheese-11-90-span2 {
+  font-family: "Joan-Regular", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+}
+.club-all-star-cheese-11-90-span3 {
+  font-family: "Lalezar-Regular", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+}
+.club-champion-11-90 {
+  color: #ffffff;
+  text-align: center;
+  position: relative;
+  align-self: stretch;
+  height: 82px;
+}
+.club-champion-11-90-span {
+  font-family: "Joan-Regular", sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+}
+.club-champion-11-90-span2 {
+  font-family: "Joan-Regular", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+}
+.club-champion-11-90-span3 {
+  font-family: "Lalezar-Regular", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+}
+.club-carbonara-11-90 {
+  color: #ffffff;
+  text-align: center;
+  position: relative;
+  align-self: stretch;
+  height: 82px;
+}
+.club-carbonara-11-90-span {
+  font-family: "Joan-Regular", sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+}
+.club-carbonara-11-90-span2 {
+  font-family: "Joan-Regular", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+}
+.club-carbonara-11-90-span3 {
+  font-family: "Lalezar-Regular", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+}
+.club-chicken-cheese-11-90 {
+  color: #ffffff;
+  text-align: center;
+  position: relative;
+  align-self: stretch;
+  height: 122px;
+}
+.club-chicken-cheese-11-90-span {
+  font-family: "Joan-Regular", sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+}
+.club-chicken-cheese-11-90-span2 {
+  font-family: "Joan-Regular", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+}
+.club-chicken-cheese-11-90-span3 {
+  font-family: "Lalezar-Regular", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+}
+.club-ethnic-11-90 {
+  color: #ffffff;
+  text-align: center;
+  position: relative;
+  align-self: stretch;
+  height: 82px;
+}
+.club-ethnic-11-90-span {
+  font-family: "Joan-Regular", sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+}
+.club-ethnic-11-90-span2 {
+  font-family: "Joan-Regular", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+}
+.club-ethnic-11-90-span3 {
+  font-family: "Lalezar-Regular", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+}
+.club-texas-11-90 {
+  color: #ffffff;
+  text-align: center;
+  position: relative;
+  align-self: stretch;
+  height: 82px;
+}
+.club-texas-11-90-span {
+  font-family: "Joan-Regular", sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+}
+.club-texas-11-90-span2 {
+  font-family: "Joan-Regular", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+}
+.club-texas-11-90-span3 {
+  font-family: "Lalezar-Regular", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+}
+.club-sweet-chilly-chicken-11-90 {
+  color: #ffffff;
+  text-align: center;
+  position: relative;
+  align-self: stretch;
+  height: 121px;
+}
+.club-sweet-chilly-chicken-11-90-span {
+  font-family: "Joan-Regular", sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+}
+.club-sweet-chilly-chicken-11-90-span2 {
+  font-family: "Joan-Regular", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+}
+.club-sweet-chilly-chicken-11-90-span3 {
+  font-family: "Lalezar-Regular", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+}
+.frame7 {
+  flex-shrink: 0;
+  width: 202px;
+  height: 55.56px;
+  position: static;
+}
+.div19 {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Joan-Regular", sans-serif;
+  font-size: 40px;
+  font-weight: 400;
+  position: absolute;
+  left: 95.12px;
+  top: 7726.13px;
+  width: 202px;
+  height: 55.56px;
+}
+.plain-10-70 {
+  color: #ffffff;
+  text-align: center;
+  position: relative;
+  align-self: stretch;
+  height: 85.96px;
+}
+.plain-10-70-span {
+  font-family: "Joan-Regular", sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+}
+.plain-10-70-span2 {
+  font-family: "Joan-Regular", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+}
+.plain-10-70-span3 {
+  font-family: "Lalezar-Regular", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+}
+.mexican-11-10 {
+  color: #ffffff;
+  text-align: center;
+  position: relative;
+  align-self: stretch;
+  height: 85.96px;
+}
+.mexican-11-10-span {
+  font-family: "Joan-Regular", sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+}
+.mexican-11-10-span2 {
+  font-family: "Joan-Regular", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+}
+.mexican-11-10-span3 {
+  font-family: "Lalezar-Regular", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+}
+.greek-land-11-10 {
+  color: #ffffff;
+  text-align: center;
+  position: relative;
+  align-self: stretch;
+  height: 85.96px;
+}
+.greek-land-11-10-span {
+  font-family: "Joan-Regular", sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+}
+.greek-land-11-10-span2 {
+  font-family: "Joan-Regular", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+}
+.greek-land-11-10-span3 {
+  font-family: "Lalezar-Regular", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+}
+.ham-bacon-mushroom-11-10 {
+  color: #ffffff;
+  text-align: center;
+  position: relative;
+  align-self: stretch;
+  height: 121px;
+}
+.ham-bacon-mushroom-11-10-span {
+  font-family: "Joan-Regular", sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+}
+.ham-bacon-mushroom-11-10-span2 {
+  font-family: "Joan-Regular", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+}
+.ham-bacon-mushroom-11-10-span3 {
+  font-family: "Lalezar-Regular", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+}
+.vegeterian-11-10 {
+  color: #ffffff;
+  text-align: center;
+  position: relative;
+  align-self: stretch;
+  height: 82px;
+}
+.vegeterian-11-10-span {
+  font-family: "Joan-Regular", sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+}
+.vegeterian-11-10-span2 {
+  font-family: "Joan-Regular", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+}
+.vegeterian-11-10-span3 {
+  font-family: "Lalezar-Regular", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+}
+.pepperoni-11-10 {
+  color: #ffffff;
+  text-align: center;
+  position: relative;
+  align-self: stretch;
+  height: 82px;
+}
+.pepperoni-11-10-span {
+  font-family: "Joan-Regular", sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+}
+.pepperoni-11-10-span2 {
+  font-family: "Joan-Regular", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+}
+.pepperoni-11-10-span3 {
+  font-family: "Lalezar-Regular", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+}
+.hot-land-11-10 {
+  color: #ffffff;
+  text-align: center;
+  position: relative;
+  align-self: stretch;
+  height: 82px;
+}
+.hot-land-11-10-span {
+  font-family: "Joan-Regular", sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+}
+.hot-land-11-10-span2 {
+  font-family: "Joan-Regular", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+}
+.hot-land-11-10-span3 {
+  font-family: "Lalezar-Regular", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+}
+.ham-11-10 {
+  color: #ffffff;
+  text-align: center;
+  position: relative;
+  align-self: stretch;
+  height: 82px;
+}
+.ham-11-10-span {
+  font-family: "Joan-Regular", sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+}
+.ham-11-10-span2 {
+  font-family: "Joan-Regular", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+}
+.ham-11-10-span3 {
+  font-family: "Lalezar-Regular", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+}
+.ham-bacon-11-10 {
+  color: #ffffff;
+  text-align: center;
+  position: relative;
+  align-self: stretch;
+  height: 82px;
+}
+.ham-bacon-11-10-span {
+  font-family: "Joan-Regular", sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+}
+.ham-bacon-11-10-span2 {
+  font-family: "Joan-Regular", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+}
+.ham-bacon-11-10-span3 {
+  font-family: "Lalezar-Regular", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+}
+.special-classic-11-10 {
+  color: #ffffff;
+  text-align: center;
+  position: relative;
+  align-self: stretch;
+  height: 82px;
+}
+.special-classic-11-10-span {
+  font-family: "Joan-Regular", sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+}
+.special-classic-11-10-span2 {
+  font-family: "Joan-Regular", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+}
+.special-classic-11-10-span3 {
+  font-family: "Lalezar-Regular", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+}
+._11-10 {
+  color: #ffffff;
+  text-align: center;
+  position: relative;
+  align-self: stretch;
+  height: 121px;
+}
+._11-10-span {
+  font-family: "Joan-Regular", sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+}
+._11-10-span2 {
+  font-family: "Joan-Regular", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+}
+._11-10-span3 {
+  font-family: "Lalezar-Regular", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+}
+._11-102 {
+  color: #ffffff;
+  text-align: center;
+  position: relative;
+  align-self: stretch;
+  height: 112px;
+}
+._11-102-span {
+  font-family: "Joan-Regular", sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+}
+._11-102-span2 {
+  font-family: "Joan-Regular", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+}
+._11-102-span3 {
+  font-family: "Lalezar-Regular", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+}
+._11-103 {
+  color: #ffffff;
+  text-align: center;
+  position: relative;
+  align-self: stretch;
+  height: 82px;
+}
+._11-103-span {
+  font-family: "Joan-Regular", sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+}
+._11-103-span2 {
+  font-family: "Joan-Regular", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+}
+._11-103-span3 {
+  font-family: "Lalezar-Regular", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+}
+._11-103-span {
+  font-family: "Joan-Regular", sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+}
+._11-103-span2 {
+  font-family: "Joan-Regular", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+}
+._11-103-span3 {
+  font-family: "Lalezar-Regular", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+}
+._11-103-span {
+  font-family: "Joan-Regular", sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+}
+._11-103-span2 {
+  font-family: "Joan-Regular", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+}
+._11-103-span3 {
+  font-family: "Lalezar-Regular", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+}
+._11-103-span {
+  font-family: "Joan-Regular", sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+}
+._11-103-span2 {
+  font-family: "Joan-Regular", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+}
+._11-103-span3 {
+  font-family: "Lalezar-Regular", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+}
+._11-103-span {
+  font-family: "Joan-Regular", sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+}
+._11-103-span2 {
+  font-family: "Joan-Regular", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+}
+._11-103-span3 {
+  font-family: "Lalezar-Regular", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+}
+.roma-11-90 {
+  color: #ffffff;
+  text-align: center;
+  position: relative;
+  align-self: stretch;
+  height: 82px;
+}
+.roma-11-90-span {
+  font-family: "Joan-Regular", sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+}
+.roma-11-90-span2 {
+  font-family: "Joan-Regular", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+}
+.roma-11-90-span3 {
+  font-family: "Lalezar-Regular", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+}
+._11-90 {
+  color: #ffffff;
+  text-align: center;
+  position: relative;
+  align-self: stretch;
+  height: 82px;
+}
+._11-90-span {
+  font-family: "Joan-Regular", sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+}
+._11-90-span2 {
+  font-family: "Joan-Regular", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+}
+._11-90-span3 {
+  font-family: "Lalezar-Regular", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+}
+.all-star-cheese-11-90 {
+  color: #ffffff;
+  text-align: center;
+  position: relative;
+  align-self: stretch;
+  height: 82px;
+}
+.all-star-cheese-11-90-span {
+  font-family: "Joan-Regular", sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+}
+.all-star-cheese-11-90-span2 {
+  font-family: "Joan-Regular", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+}
+.all-star-cheese-11-90-span3 {
+  font-family: "Lalezar-Regular", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+}
+.champion-11-90 {
+  color: #ffffff;
+  text-align: center;
+  position: relative;
+  align-self: stretch;
+  height: 82px;
+}
+.champion-11-90-span {
+  font-family: "Joan-Regular", sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+}
+.champion-11-90-span2 {
+  font-family: "Joan-Regular", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+}
+.champion-11-90-span3 {
+  font-family: "Lalezar-Regular", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+}
+.carbonara-11-90 {
+  color: #ffffff;
+  text-align: center;
+  position: relative;
+  align-self: stretch;
+  height: 82px;
+}
+.carbonara-11-90-span {
+  font-family: "Joan-Regular", sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+}
+.carbonara-11-90-span2 {
+  font-family: "Joan-Regular", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+}
+.carbonara-11-90-span3 {
+  font-family: "Lalezar-Regular", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+}
+.chicken-cheese-11-90 {
+  color: #ffffff;
+  text-align: center;
+  position: relative;
+  align-self: stretch;
+  height: 82px;
+}
+.chicken-cheese-11-90-span {
+  font-family: "Joan-Regular", sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+}
+.chicken-cheese-11-90-span2 {
+  font-family: "Joan-Regular", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+}
+.chicken-cheese-11-90-span3 {
+  font-family: "Lalezar-Regular", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+}
+.ethnic-11-90 {
+  color: #ffffff;
+  text-align: center;
+  position: relative;
+  align-self: stretch;
+  height: 82px;
+}
+.ethnic-11-90-span {
+  font-family: "Joan-Regular", sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+}
+.ethnic-11-90-span2 {
+  font-family: "Joan-Regular", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+}
+.ethnic-11-90-span3 {
+  font-family: "Lalezar-Regular", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+}
+.texas-11-90 {
+  color: #ffffff;
+  text-align: center;
+  position: relative;
+  align-self: stretch;
+  height: 82px;
+}
+.texas-11-90-span {
+  font-family: "Joan-Regular", sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+}
+.texas-11-90-span2 {
+  font-family: "Joan-Regular", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+}
+.texas-11-90-span3 {
+  font-family: "Lalezar-Regular", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+}
+.sweet-chilly-chicken-11-90 {
+  color: #ffffff;
+  text-align: center;
+  position: relative;
+  align-self: stretch;
+  height: 121px;
+}
+.sweet-chilly-chicken-11-90-span {
+  font-family: "Joan-Regular", sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+}
+.sweet-chilly-chicken-11-90-span2 {
+  font-family: "Joan-Regular", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+}
+.sweet-chilly-chicken-11-90-span3 {
+  font-family: "Lalezar-Regular", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+}
+.frame8 {
+  flex-shrink: 0;
+  width: 192px;
+  height: 79.67px;
+  position: static;
+}
+.div20 {
+  color: #ffffff;
+  text-align: center;
+  font-family: "Joan-Regular", sans-serif;
+  font-size: 40px;
+  font-weight: 400;
+  position: absolute;
+  left: 100.12px;
+  top: 11692.57px;
+  width: 192px;
+  height: 79.67px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.hamburger-7-20 {
+  color: #ffffff;
+  text-align: center;
+  font-family: "-", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+  position: relative;
+  align-self: stretch;
+  height: 573.43px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.hamburger-7-20-span {
+  font-family: "Joan-Regular", sans-serif;
+}
+.hamburger-7-20-span2 {
+  font-family: "Lalezar-Regular", sans-serif;
+}
+.pizza-frame {
+  flex-shrink: 0;
+  width: 176px;
+  height: 54.51px;
+  position: static;
+}
+.pizza3 {
+  color: #ffffff;
+  text-align: center;
+  font-family: "Joan-Regular", sans-serif;
+  font-size: 60px;
+  font-weight: 400;
+  position: absolute;
+  left: 108.12px;
+  top: 12465.67px;
+  width: 176px;
+  height: 54.51px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.plain-frame {
+  flex-shrink: 0;
+  width: 392.24px;
+  height: 192.33px;
+  position: static;
+}
+.frame-1 {
+  display: flex;
+  flex-direction: row;
+  gap: 17px;
+  align-items: center;
+  justify-content: flex-start;
+  width: 371.75px;
+  height: 113.33px;
+  position: absolute;
+  left: 10px;
+  top: 12659.18px;
+}
+.group-19 {
+  flex-shrink: 0;
+  width: 380.76px;
+  height: 100px;
+  position: static;
+}
+._10-70 {
+  color: #ffffff;
+  text-align: center;
+  position: absolute;
+  left: 0px;
+  top: 38.61px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+._10-70-span {
+  font-family: "Joan-Regular", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+  text-decoration: underline;
+}
+._10-70-span2 {
+  font-family: "Lalezar-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+}
+.mega-margarita-14-10 {
+  color: #ffffff;
+  text-align: center;
+  position: absolute;
+  left: 124.76px;
+  top: 6.66px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.mega-margarita-14-10-span {
+  font-family: "Joan-Regular", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+  text-decoration: underline;
+}
+.mega-margarita-14-10-span2 {
+  font-family: "Lalezar-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+}
+.italian-15-30 {
+  color: #ffffff;
+  text-align: center;
+  position: absolute;
+  left: 244.76px;
+  top: 6.66px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.italian-15-30-span {
+  font-family: "Joan-Regular", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+  text-decoration: underline;
+}
+.italian-15-30-span2 {
+  font-family: "Lalezar-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+}
+.plain {
+  color: #ffffff;
+  text-align: center;
+  position: absolute;
+  left: 0px;
+  top: 12580.18px;
+  width: 392.24px;
+  height: 79.33px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.plain-span {
+  font-family: "Joan-Regular", sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+}
+.plain-span2 {
+  font-family: "Joan-Regular", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+}
+.sweet-chili-chicken-frame {
+  flex-shrink: 0;
+  width: 392.24px;
+  height: 265.33px;
+  position: static;
+}
+.frame-2 {
+  display: flex;
+  flex-direction: row;
+  gap: 17px;
+  align-items: center;
+  justify-content: flex-start;
+  width: 371.75px;
+  height: 113.33px;
+  position: absolute;
+  left: 10px;
+  top: 12984.5px;
+}
+.group-192 {
+  flex-shrink: 0;
+  width: 380.27px;
+  height: 100px;
+  position: static;
+}
+._11-902 {
+  color: #ffffff;
+  text-align: center;
+  position: absolute;
+  left: 0px;
+  top: 38.61px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+._11-902-span {
+  font-family: "Joan-Regular", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+  text-decoration: underline;
+}
+._11-902-span2 {
+  font-family: "Lalezar-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+}
+.mega-margarita-15-60 {
+  color: #ffffff;
+  text-align: center;
+  position: absolute;
+  left: 124.27px;
+  top: 6.66px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.mega-margarita-15-60-span {
+  font-family: "Joan-Regular", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+  text-decoration: underline;
+}
+.mega-margarita-15-60-span2 {
+  font-family: "Lalezar-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+}
+.italian-17-10 {
+  color: #ffffff;
+  text-align: center;
+  position: absolute;
+  left: 244.27px;
+  top: 6.66px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.italian-17-10-span {
+  font-family: "Joan-Regular", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+  text-decoration: underline;
+}
+.italian-17-10-span2 {
+  font-family: "Lalezar-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+}
+.sweet-chili-chicken-sweet-chili {
+  color: #ffffff;
+  text-align: center;
+  position: absolute;
+  left: 0px;
+  top: 12832.5px;
+  width: 392.24px;
+  height: 151.86px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.sweet-chili-chicken-sweet-chili-span {
+  font-family: "Joan-Regular", sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+}
+.sweet-chili-chicken-sweet-chili-span2 {
+  font-family: "Joan-Regular", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+}
+.mexican-frame {
+  flex-shrink: 0;
+  width: 392.24px;
+  height: 261.33px;
+  position: static;
+}
+.frame-3 {
+  display: flex;
+  flex-direction: row;
+  gap: 17px;
+  align-items: center;
+  justify-content: flex-start;
+  width: 371.75px;
+  height: 113.33px;
+  position: absolute;
+  left: 10px;
+  top: 13305.83px;
+}
+._11-104 {
+  color: #ffffff;
+  text-align: center;
+  position: absolute;
+  left: 0px;
+  top: 38.61px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+._11-104-span {
+  font-family: "Joan-Regular", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+  text-decoration: underline;
+}
+._11-104-span2 {
+  font-family: "Lalezar-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+}
+.mega-margarita-14-40 {
+  color: #ffffff;
+  text-align: center;
+  position: absolute;
+  left: 124.76px;
+  top: 6.66px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.mega-margarita-14-40-span {
+  font-family: "Joan-Regular", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+  text-decoration: underline;
+}
+.mega-margarita-14-40-span2 {
+  font-family: "Lalezar-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+}
+.italian-15-50 {
+  color: #ffffff;
+  text-align: center;
+  position: absolute;
+  left: 244.76px;
+  top: 6.66px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.italian-15-50-span {
+  font-family: "Joan-Regular", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+  text-decoration: underline;
+}
+.italian-15-50-span2 {
+  font-family: "Lalezar-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+}
+.mexican {
+  color: #ffffff;
+  text-align: center;
+  position: absolute;
+  left: 0px;
+  top: 13157.83px;
+  width: 392.24px;
+  height: 148.46px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.mexican-span {
+  font-family: "Joan-Regular", sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+}
+.mexican-span2 {
+  font-family: "Lalezar-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+}
+.mexican-span3 {
+  font-family: "Joan-Regular", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+}
+.greek-land-frame {
+  flex-shrink: 0;
+  width: 392.24px;
+  height: 264.33px;
+  position: static;
+}
+.frame-4 {
+  display: flex;
+  flex-direction: row;
+  gap: 17px;
+  align-items: center;
+  justify-content: flex-start;
+  width: 371.75px;
+  height: 113.33px;
+  position: absolute;
+  left: 10px;
+  top: 13630.16px;
+}
+.group-193 {
+  flex-shrink: 0;
+  width: 380.51px;
+  height: 100px;
+  position: static;
+}
+._11-104-span {
+  font-family: "Joan-Regular", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+  text-decoration: underline;
+}
+._11-104-span2 {
+  font-family: "Lalezar-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+}
+.mega-margarita-14-402 {
+  color: #ffffff;
+  text-align: center;
+  position: absolute;
+  left: 124.51px;
+  top: 6.66px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.mega-margarita-14-402-span {
+  font-family: "Joan-Regular", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+  text-decoration: underline;
+}
+.mega-margarita-14-402-span2 {
+  font-family: "Lalezar-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+}
+.italian-15-502 {
+  color: #ffffff;
+  text-align: center;
+  position: absolute;
+  left: 244.51px;
+  top: 6.66px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.italian-15-502-span {
+  font-family: "Joan-Regular", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+  text-decoration: underline;
+}
+.italian-15-502-span2 {
+  font-family: "Lalezar-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+}
+.greek-land {
+  color: #ffffff;
+  text-align: center;
+  position: absolute;
+  left: 0px;
+  top: 13479.16px;
+  width: 392.24px;
+  height: 150.72px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.greek-land-span {
+  font-family: "Joan-Regular", sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+}
+.greek-land-span2 {
+  font-family: "Joan-Regular", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+}
+.ham-bacon-mushrooms-frame {
+  flex-shrink: 0;
+  width: 392.24px;
+  height: 309.33px;
+  position: static;
+}
+.frame-5 {
+  display: flex;
+  flex-direction: row;
+  gap: 17px;
+  align-items: center;
+  justify-content: flex-start;
+  width: 371.75px;
+  height: 113.33px;
+  position: absolute;
+  left: 10px;
+  top: 13999.48px;
+}
+._11-104-span {
+  font-family: "Joan-Regular", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+  text-decoration: underline;
+}
+._11-104-span2 {
+  font-family: "Lalezar-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+}
+.mega-margarita-14-40-span {
+  font-family: "Joan-Regular", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+  text-decoration: underline;
+}
+.mega-margarita-14-40-span2 {
+  font-family: "Lalezar-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+}
+.italian-15-50-span {
+  font-family: "Joan-Regular", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+  text-decoration: underline;
+}
+.italian-15-50-span2 {
+  font-family: "Lalezar-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+}
+.ham-bacon-mushrooms {
+  color: #ffffff;
+  text-align: center;
+  position: absolute;
+  left: 0px;
+  top: 13803.48px;
+  width: 392.24px;
+  height: 196.05px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.ham-bacon-mushrooms-span {
+  font-family: "Joan-Regular", sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+}
+.ham-bacon-mushrooms-span2 {
+  font-family: "Joan-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+}
+.ham-bacon-mushrooms-span3 {
+  font-family: "Joan-Regular", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+}
+.vegetarian-frame {
+  flex-shrink: 0;
+  width: 392.24px;
+  height: 265.33px;
+  position: static;
+}
+.frame-6 {
+  display: flex;
+  flex-direction: row;
+  gap: 17px;
+  align-items: center;
+  justify-content: flex-start;
+  width: 371.75px;
+  height: 113.33px;
+  position: absolute;
+  left: 10px;
+  top: 14324.81px;
+}
+._11-104-span {
+  font-family: "Joan-Regular", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+  text-decoration: underline;
+}
+._11-104-span2 {
+  font-family: "Lalezar-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+}
+.mega-margarita-14-40-span {
+  font-family: "Joan-Regular", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+  text-decoration: underline;
+}
+.mega-margarita-14-40-span2 {
+  font-family: "Lalezar-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+}
+.italian-15-50-span {
+  font-family: "Joan-Regular", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+  text-decoration: underline;
+}
+.italian-15-50-span2 {
+  font-family: "Lalezar-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+}
+.vegetarian {
+  color: #ffffff;
+  text-align: center;
+  position: absolute;
+  left: 0px;
+  top: 14172.81px;
+  width: 392.24px;
+  height: 151.86px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.vegetarian-span {
+  font-family: "Joan-Regular", sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+}
+.vegetarian-span2 {
+  font-family: "Joan-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+}
+.vegetarian-span3 {
+  font-family: "Joan-Regular", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+}
+.pepperoni-frame {
+  flex-shrink: 0;
+  width: 392.24px;
+  height: 229.33px;
+  position: static;
+}
+.frame-7 {
+  display: flex;
+  flex-direction: row;
+  gap: 17px;
+  align-items: center;
+  justify-content: flex-start;
+  width: 371.75px;
+  height: 113.33px;
+  position: absolute;
+  left: 10px;
+  top: 14614.13px;
+}
+._11-104-span {
+  font-family: "Joan-Regular", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+  text-decoration: underline;
+}
+._11-104-span2 {
+  font-family: "Lalezar-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+}
+.mega-margarita-14-40-span {
+  font-family: "Joan-Regular", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+  text-decoration: underline;
+}
+.mega-margarita-14-40-span2 {
+  font-family: "Lalezar-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+}
+.italian-15-50-span {
+  font-family: "Joan-Regular", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+  text-decoration: underline;
+}
+.italian-15-50-span2 {
+  font-family: "Lalezar-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+}
+.pepperoni {
+  color: #ffffff;
+  text-align: center;
+  position: absolute;
+  left: 0px;
+  top: 14498.13px;
+  width: 392.24px;
+  height: 115.59px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.pepperoni-span {
+  font-family: "Joan-Regular", sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+}
+.pepperoni-span2 {
+  font-family: "Joan-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+}
+.pepperoni-span3 {
+  font-family: "Joan-Regular", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+}
+.hot-land-frame {
+  flex-shrink: 0;
+  width: 392.24px;
+  height: 265.33px;
+  position: static;
+}
+.frame-8 {
+  display: flex;
+  flex-direction: row;
+  gap: 17px;
+  align-items: center;
+  justify-content: flex-start;
+  width: 371.75px;
+  height: 113.33px;
+  position: absolute;
+  left: 10px;
+  top: 14939.46px;
+}
+._11-104-span {
+  font-family: "Joan-Regular", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+  text-decoration: underline;
+}
+._11-104-span2 {
+  font-family: "Lalezar-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+}
+.mega-margarita-14-402-span {
+  font-family: "Joan-Regular", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+  text-decoration: underline;
+}
+.mega-margarita-14-402-span2 {
+  font-family: "Lalezar-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+}
+.italian-15-502-span {
+  font-family: "Joan-Regular", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+  text-decoration: underline;
+}
+.italian-15-502-span2 {
+  font-family: "Lalezar-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+}
+.hot-land {
+  color: #ffffff;
+  text-align: center;
+  position: absolute;
+  left: 0px;
+  top: 14787.46px;
+  width: 392.24px;
+  height: 151.86px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.hot-land-span {
+  font-family: "Joan-Regular", sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+}
+.hot-land-span2 {
+  font-family: "Joan-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+}
+.hot-land-span3 {
+  font-family: "Joan-Regular", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+}
+.ham-frame {
+  flex-shrink: 0;
+  width: 392.24px;
+  height: 229.33px;
+  position: static;
+}
+.frame-9 {
+  display: flex;
+  flex-direction: row;
+  gap: 17px;
+  align-items: center;
+  justify-content: flex-start;
+  width: 371.75px;
+  height: 113.33px;
+  position: absolute;
+  left: 10px;
+  top: 15228.79px;
+}
+._11-104-span {
+  font-family: "Joan-Regular", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+  text-decoration: underline;
+}
+._11-104-span2 {
+  font-family: "Lalezar-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+}
+.mega-margarita-14-40-span {
+  font-family: "Joan-Regular", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+  text-decoration: underline;
+}
+.mega-margarita-14-40-span2 {
+  font-family: "Lalezar-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+}
+.italian-15-50-span {
+  font-family: "Joan-Regular", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+  text-decoration: underline;
+}
+.italian-15-50-span2 {
+  font-family: "Lalezar-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+}
+.ham {
+  color: #ffffff;
+  text-align: center;
+  position: absolute;
+  left: 0px;
+  top: 15112.79px;
+  width: 392.24px;
+  height: 115.59px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.ham-span {
+  font-family: "Joan-Regular", sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+}
+.ham-span2 {
+  font-family: "Joan-Regular", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+}
+.ham-bacon-frame {
+  flex-shrink: 0;
+  width: 392.24px;
+  height: 229.33px;
+  position: static;
+}
+.frame-10 {
+  display: flex;
+  flex-direction: row;
+  gap: 17px;
+  align-items: center;
+  justify-content: flex-start;
+  width: 371.75px;
+  height: 113.33px;
+  position: absolute;
+  left: 10px;
+  top: 15518.11px;
+}
+._11-104-span {
+  font-family: "Joan-Regular", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+  text-decoration: underline;
+}
+._11-104-span2 {
+  font-family: "Lalezar-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+}
+.mega-margarita-14-40-span {
+  font-family: "Joan-Regular", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+  text-decoration: underline;
+}
+.mega-margarita-14-40-span2 {
+  font-family: "Lalezar-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+}
+.italian-15-50-span {
+  font-family: "Joan-Regular", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+  text-decoration: underline;
+}
+.italian-15-50-span2 {
+  font-family: "Lalezar-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+}
+.ham-bacon {
+  color: #ffffff;
+  text-align: center;
+  position: absolute;
+  left: 0px;
+  top: 15402.11px;
+  width: 392.24px;
+  height: 115.59px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.ham-bacon-span {
+  font-family: "Joan-Regular", sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+}
+.ham-bacon-span2 {
+  font-family: "Joan-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+}
+.ham-bacon-span3 {
+  font-family: "Joan-Regular", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+}
+.special-classic-frame {
+  flex-shrink: 0;
+  width: 392.24px;
+  height: 265.33px;
+  position: static;
+}
+.frame-11 {
+  display: flex;
+  flex-direction: row;
+  gap: 17px;
+  align-items: center;
+  justify-content: flex-start;
+  width: 371.75px;
+  height: 113.33px;
+  position: absolute;
+  left: 10px;
+  top: 15843.44px;
+}
+._11-104-span {
+  font-family: "Joan-Regular", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+  text-decoration: underline;
+}
+._11-104-span2 {
+  font-family: "Lalezar-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+}
+.mega-margarita-14-40-span {
+  font-family: "Joan-Regular", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+  text-decoration: underline;
+}
+.mega-margarita-14-40-span2 {
+  font-family: "Lalezar-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+}
+.italian-15-50-span {
+  font-family: "Joan-Regular", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+  text-decoration: underline;
+}
+.italian-15-50-span2 {
+  font-family: "Lalezar-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+}
+.special-classic {
+  color: #ffffff;
+  text-align: center;
+  position: absolute;
+  left: 0px;
+  top: 15691.44px;
+  width: 392.24px;
+  height: 151.86px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.special-classic-span {
+  font-family: "Joan-Regular", sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+}
+.special-classic-span2 {
+  font-family: "Joan-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+}
+.special-classic-span3 {
+  font-family: "Joan-Regular", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+}
+.all-star-cheese-frame {
+  flex-shrink: 0;
+  width: 392.24px;
+  height: 265.33px;
+  position: static;
+}
+.frame-12 {
+  display: flex;
+  flex-direction: row;
+  gap: 17px;
+  align-items: center;
+  justify-content: flex-start;
+  width: 371.75px;
+  height: 113.33px;
+  position: absolute;
+  left: 10px;
+  top: 16168.77px;
+}
+._11-902-span {
+  font-family: "Joan-Regular", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+  text-decoration: underline;
+}
+._11-902-span2 {
+  font-family: "Lalezar-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+}
+.mega-margarita-15-602 {
+  color: #ffffff;
+  text-align: center;
+  position: absolute;
+  left: 124.76px;
+  top: 6.66px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.mega-margarita-15-602-span {
+  font-family: "Joan-Regular", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+  text-decoration: underline;
+}
+.mega-margarita-15-602-span2 {
+  font-family: "Lalezar-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+}
+.italian-17-102 {
+  color: #ffffff;
+  text-align: center;
+  position: absolute;
+  left: 244.76px;
+  top: 6.66px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.italian-17-102-span {
+  font-family: "Joan-Regular", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+  text-decoration: underline;
+}
+.italian-17-102-span2 {
+  font-family: "Lalezar-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+}
+.all-star-cheese-philadelphia-cream-cheese {
+  color: #ffffff;
+  text-align: center;
+  position: absolute;
+  left: 0px;
+  top: 16016.77px;
+  width: 392.24px;
+  height: 151.86px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.all-star-cheese-philadelphia-cream-cheese-span {
+  font-family: "Joan-Regular", sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+}
+.all-star-cheese-philadelphia-cream-cheese-span2 {
+  font-family: "Joan-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+}
+.all-star-cheese-philadelphia-cream-cheese-span3 {
+  font-family: "Joan-Regular", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+}
+.chicken-cheese-frame {
+  flex-shrink: 0;
+  width: 392.24px;
+  height: 265.33px;
+  position: static;
+}
+.frame-15 {
+  display: flex;
+  flex-direction: row;
+  gap: 17px;
+  align-items: center;
+  justify-content: flex-start;
+  width: 371.75px;
+  height: 113.33px;
+  position: absolute;
+  left: 10px;
+  top: 16494.09px;
+}
+._11-902-span {
+  font-family: "Joan-Regular", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+  text-decoration: underline;
+}
+._11-902-span2 {
+  font-family: "Lalezar-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+}
+.mega-margarita-15-602-span {
+  font-family: "Joan-Regular", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+  text-decoration: underline;
+}
+.mega-margarita-15-602-span2 {
+  font-family: "Lalezar-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+}
+.italian-17-102-span {
+  font-family: "Joan-Regular", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+  text-decoration: underline;
+}
+.italian-17-102-span2 {
+  font-family: "Lalezar-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+}
+.chicken-cheese-philadelphia-cream-cheese {
+  color: #ffffff;
+  text-align: center;
+  position: absolute;
+  left: 0px;
+  top: 16342.09px;
+  width: 392.24px;
+  height: 151.86px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.chicken-cheese-philadelphia-cream-cheese-span {
+  font-family: "Joan-Regular", sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+}
+.chicken-cheese-philadelphia-cream-cheese-span2 {
+  font-family: "Joan-Regular", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+}
+.champion-frame {
+  flex-shrink: 0;
+  width: 392.24px;
+  height: 265.33px;
+  position: static;
+}
+.frame-13 {
+  display: flex;
+  flex-direction: row;
+  gap: 17px;
+  align-items: center;
+  justify-content: flex-start;
+  width: 371.75px;
+  height: 113.33px;
+  position: absolute;
+  left: 10px;
+  top: 16819.42px;
+}
+._11-902-span {
+  font-family: "Joan-Regular", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+  text-decoration: underline;
+}
+._11-902-span2 {
+  font-family: "Lalezar-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+}
+.mega-margarita-15-602-span {
+  font-family: "Joan-Regular", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+  text-decoration: underline;
+}
+.mega-margarita-15-602-span2 {
+  font-family: "Lalezar-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+}
+.italian-17-102-span {
+  font-family: "Joan-Regular", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+  text-decoration: underline;
+}
+.italian-17-102-span2 {
+  font-family: "Lalezar-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+}
+.champion-fouantr {
+  color: #ffffff;
+  text-align: center;
+  position: absolute;
+  left: 0px;
+  top: 16667.42px;
+  width: 392.24px;
+  height: 151.86px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.champion-fouantr-span {
+  font-family: "Joan-Regular", sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+}
+.champion-fouantr-span2 {
+  font-family: "Joan-Regular", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+}
+.carbonara-frame {
+  flex-shrink: 0;
+  width: 392.24px;
+  height: 229.33px;
+  position: static;
+}
+.frame-14 {
+  display: flex;
+  flex-direction: row;
+  gap: 17px;
+  align-items: center;
+  justify-content: flex-start;
+  width: 371.75px;
+  height: 113.33px;
+  position: absolute;
+  left: 10px;
+  top: 17108.74px;
+}
+._11-902-span {
+  font-family: "Joan-Regular", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+  text-decoration: underline;
+}
+._11-902-span2 {
+  font-family: "Lalezar-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+}
+.mega-margarita-15-602-span {
+  font-family: "Joan-Regular", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+  text-decoration: underline;
+}
+.mega-margarita-15-602-span2 {
+  font-family: "Lalezar-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+}
+.italian-17-102-span {
+  font-family: "Joan-Regular", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+  text-decoration: underline;
+}
+.italian-17-102-span2 {
+  font-family: "Lalezar-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+}
+.carbonara-carbonara {
+  color: #ffffff;
+  text-align: center;
+  position: absolute;
+  left: 0px;
+  top: 16992.74px;
+  width: 392.24px;
+  height: 115.59px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.carbonara-carbonara-span {
+  font-family: "Joan-Regular", sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+}
+.carbonara-carbonara-span2 {
+  font-family: "Joan-Regular", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+}
+.ethnic-frame {
+  flex-shrink: 0;
+  width: 392.24px;
+  height: 265.33px;
+  position: static;
+}
+.frame-16 {
+  display: flex;
+  flex-direction: row;
+  gap: 17px;
+  align-items: center;
+  justify-content: flex-start;
+  width: 371.75px;
+  height: 113.33px;
+  position: absolute;
+  left: 10px;
+  top: 17434.07px;
+}
+._11-902-span {
+  font-family: "Joan-Regular", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+  text-decoration: underline;
+}
+._11-902-span2 {
+  font-family: "Lalezar-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+}
+.mega-margarita-15-602-span {
+  font-family: "Joan-Regular", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+  text-decoration: underline;
+}
+.mega-margarita-15-602-span2 {
+  font-family: "Lalezar-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+}
+.italian-17-102-span {
+  font-family: "Joan-Regular", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+  text-decoration: underline;
+}
+.italian-17-102-span2 {
+  font-family: "Lalezar-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+}
+.ethnic-sauce-ethnic {
+  color: #ffffff;
+  text-align: center;
+  position: absolute;
+  left: 0px;
+  top: 17282.07px;
+  width: 392.24px;
+  height: 151.86px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.ethnic-sauce-ethnic-span {
+  font-family: "Joan-Regular", sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+}
+.ethnic-sauce-ethnic-span2 {
+  font-family: "Joan-Regular", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+}
+.texas-frame {
+  flex-shrink: 0;
+  width: 392.24px;
+  height: 229.33px;
+  position: static;
+}
+.frame-17 {
+  display: flex;
+  flex-direction: row;
+  gap: 17px;
+  align-items: center;
+  justify-content: flex-start;
+  width: 371.75px;
+  height: 113.33px;
+  position: absolute;
+  left: 10px;
+  top: 17723.4px;
+}
+._11-902-span {
+  font-family: "Joan-Regular", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+  text-decoration: underline;
+}
+._11-902-span2 {
+  font-family: "Lalezar-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+}
+.mega-margarita-15-602-span {
+  font-family: "Joan-Regular", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+  text-decoration: underline;
+}
+.mega-margarita-15-602-span2 {
+  font-family: "Lalezar-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+}
+.italian-17-102-span {
+  font-family: "Joan-Regular", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+  text-decoration: underline;
+}
+.italian-17-102-span2 {
+  font-family: "Lalezar-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+}
+.texas-bbq {
+  color: #ffffff;
+  text-align: center;
+  position: absolute;
+  left: 0px;
+  top: 17607.4px;
+  width: 392.24px;
+  height: 115.59px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.texas-bbq-span {
+  font-family: "Joan-Regular", sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+}
+.texas-bbq-span2 {
+  font-family: "Joan-Regular", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+}
+.roma-frame {
+  flex-shrink: 0;
+  width: 392.24px;
+  height: 301.33px;
+  position: static;
+}
+.frame-18 {
+  display: flex;
+  flex-direction: row;
+  gap: 17px;
+  align-items: center;
+  justify-content: flex-start;
+  width: 371.75px;
+  height: 113.33px;
+  position: absolute;
+  left: 10px;
+  top: 18084.72px;
+}
+._11-50 {
+  color: #ffffff;
+  text-align: center;
+  position: absolute;
+  left: 0px;
+  top: 38.61px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+._11-50-span {
+  font-family: "Joan-Regular", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+  text-decoration: underline;
+}
+._11-50-span2 {
+  font-family: "Lalezar-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+}
+.mega-margarita-15-00 {
+  color: #ffffff;
+  text-align: center;
+  position: absolute;
+  left: 124.76px;
+  top: 6.66px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.mega-margarita-15-00-span {
+  font-family: "Joan-Regular", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+  text-decoration: underline;
+}
+.mega-margarita-15-00-span2 {
+  font-family: "Lalezar-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+}
+.italian-16-30 {
+  color: #ffffff;
+  text-align: center;
+  position: absolute;
+  left: 244.76px;
+  top: 6.66px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.italian-16-30-span {
+  font-family: "Joan-Regular", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+  text-decoration: underline;
+}
+.italian-16-30-span2 {
+  font-family: "Lalezar-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+}
+.roma {
+  color: #ffffff;
+  text-align: center;
+  position: absolute;
+  left: 0px;
+  top: 17896.72px;
+  width: 392.24px;
+  height: 188.12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.roma-span {
+  font-family: "Joan-Regular", sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+}
+.roma-span2 {
+  font-family: "Joan-Regular", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+}
+.mediterranean-frame {
+  flex-shrink: 0;
+  width: 392.24px;
+  height: 309.33px;
+  position: static;
+}
+.frame-19 {
+  display: flex;
+  flex-direction: row;
+  gap: 17px;
+  align-items: center;
+  justify-content: flex-start;
+  width: 371.75px;
+  height: 113.33px;
+  position: absolute;
+  left: 10px;
+  top: 18454.05px;
+}
+._11-50-span {
+  font-family: "Joan-Regular", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+  text-decoration: underline;
+}
+._11-50-span2 {
+  font-family: "Lalezar-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+}
+.mega-margarita-15-002 {
+  color: #ffffff;
+  text-align: center;
+  position: absolute;
+  left: 124.51px;
+  top: 6.66px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.mega-margarita-15-002-span {
+  font-family: "Joan-Regular", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+  text-decoration: underline;
+}
+.mega-margarita-15-002-span2 {
+  font-family: "Lalezar-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+}
+.italian-16-302 {
+  color: #ffffff;
+  text-align: center;
+  position: absolute;
+  left: 244.51px;
+  top: 6.66px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.italian-16-302-span {
+  font-family: "Joan-Regular", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+  text-decoration: underline;
+}
+.italian-16-302-span2 {
+  font-family: "Lalezar-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+}
+.mediterranean {
+  color: #ffffff;
+  text-align: center;
+  position: absolute;
+  left: 0px;
+  top: 18258.05px;
+  width: 392.24px;
+  height: 196.05px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.mediterranean-span {
+  font-family: "Joan-Regular", sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+}
+.mediterranean-span2 {
+  font-family: "Joan-Regular", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+}
+.frame9 {
+  flex-shrink: 0;
+  width: 207.83px;
+  height: 57.8px;
+  position: static;
+}
+.div21 {
+  color: #ffffff;
+  text-align: center;
+  font-family: "Joan-Regular", sans-serif;
+  font-size: 40px;
+  font-weight: 400;
+  position: absolute;
+  left: 92.21px;
+  top: 18627.38px;
+  width: 207.83px;
+  height: 57.8px;
+}
+.spaghetti-special-8-20 {
+  color: #ffffff;
+  text-align: center;
+  position: relative;
+  align-self: stretch;
+  height: 215.32px;
+}
+.spaghetti-special-8-20-span {
+  font-family: "Joan-Regular", sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+}
+.spaghetti-special-8-20-span2 {
+  font-family: "Joan-Regular", sans-serif;
+  font-size: 40px;
+  font-weight: 400;
+}
+.spaghetti-special-8-20-span3 {
+  font-family: "Joan-Regular", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+}
+.spaghetti-special-8-20-span4 {
+  font-family: "Lalezar-Regular", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+}
+.spaghetti-carbonara-8-70 {
+  color: #ffffff;
+  text-align: center;
+  position: relative;
+  align-self: stretch;
+  height: 167.72px;
+}
+.spaghetti-carbonara-8-70-span {
+  font-family: "Joan-Regular", sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+}
+.spaghetti-carbonara-8-70-span2 {
+  font-family: "Joan-Regular", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+}
+.spaghetti-carbonara-8-70-span3 {
+  font-family: "Lalezar-Regular", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+}
+.spaghetti-bolognese-8-70 {
+  color: #ffffff;
+  text-align: center;
+  position: relative;
+  align-self: stretch;
+  height: 167.72px;
+}
+.spaghetti-bolognese-8-70-span {
+  font-family: "Joan-Regular", sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+}
+.spaghetti-bolognese-8-70-span2 {
+  font-family: "Joan-Regular", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+}
+.spaghetti-bolognese-8-70-span3 {
+  font-family: "Lalezar-Regular", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+}
+.spaghetti-napolitana-8-20 {
+  color: #ffffff;
+  text-align: center;
+  position: relative;
+  align-self: stretch;
+  height: 167.72px;
+}
+.spaghetti-napolitana-8-20-span {
+  font-family: "Joan-Regular", sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+}
+.spaghetti-napolitana-8-20-span2 {
+  font-family: "Joan-Regular", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+}
+.spaghetti-napolitana-8-20-span3 {
+  font-family: "Lalezar-Regular", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+}
+.rigatoni-special-8-20 {
+  color: #ffffff;
+  text-align: center;
+  position: relative;
+  align-self: stretch;
+  height: 203.99px;
+}
+.rigatoni-special-8-20-span {
+  font-family: "Joan-Regular", sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+}
+.rigatoni-special-8-20-span2 {
+  font-family: "Joan-Regular", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+}
+.rigatoni-special-8-20-span3 {
+  font-family: "Lalezar-Regular", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+}
+.chef-s-rigatoni-8-70 {
+  color: #ffffff;
+  text-align: center;
+  position: relative;
+  align-self: stretch;
+  height: 203.99px;
+}
+.chef-s-rigatoni-8-70-span {
+  font-family: "Joan-Regular", sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+}
+.chef-s-rigatoni-8-70-span2 {
+  font-family: "Joan-Regular", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+}
+.chef-s-rigatoni-8-70-span3 {
+  font-family: "Lalezar-Regular", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+}
+.div22 {
+  color: #ffffff;
+  text-align: center;
+  font-family: "Lalezar-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  position: relative;
+  align-self: stretch;
+  height: 93px;
+}
+.div23 {
+  color: #ffffff;
+  text-align: center;
+  font-family: "Joan-Regular", sans-serif;
+  font-size: 40px;
+  font-weight: 400;
+  position: absolute;
+  left: 92.21px;
+  top: 20384.63px;
+  width: 207.83px;
+  height: 57.8px;
+}
+.roma-burger-7-70 {
+  color: #ffffff;
+  text-align: center;
+  position: relative;
+  align-self: stretch;
+  height: 179.05px;
+}
+.roma-burger-7-70-span {
+  font-family: "Joan-Regular", sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+}
+.roma-burger-7-70-span2 {
+  font-family: "Joan-Regular", sans-serif;
+  font-size: 40px;
+  font-weight: 400;
+}
+.roma-burger-7-70-span3 {
+  font-family: "Joan-Regular", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+}
+.roma-burger-7-70-span4 {
+  font-family: "Lalezar-Regular", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+}
+.classic-burger-sauce-ethnic-8-10 {
+  color: #ffffff;
+  text-align: center;
+  position: relative;
+  align-self: stretch;
+  height: 167.72px;
+}
+.classic-burger-sauce-ethnic-8-10-span {
+  font-family: "Joan-Regular", sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+}
+.classic-burger-sauce-ethnic-8-10-span2 {
+  font-family: "Joan-Regular", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+}
+.classic-burger-sauce-ethnic-8-10-span3 {
+  font-family: "Lalezar-Regular", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+}
+.vegetarian-burger-sauce-ethnic-8-10 {
+  color: #ffffff;
+  text-align: center;
+  position: relative;
+  align-self: stretch;
+  height: 164.32px;
+}
+.vegetarian-burger-sauce-ethnic-8-10-span {
+  font-family: "Joan-Regular", sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+}
+.vegetarian-burger-sauce-ethnic-8-10-span2 {
+  font-family: "Lalezar-Regular", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+}
+.vegetarian-burger-sauce-ethnic-8-10-span3 {
+  font-family: "Joan-Regular", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+}
+.chicken-nuggets-sauce-ethnic-8-10 {
+  color: #ffffff;
+  text-align: center;
+  position: relative;
+  align-self: stretch;
+  height: 203.99px;
+}
+.chicken-nuggets-sauce-ethnic-8-10-span {
+  font-family: "Joan-Regular", sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+}
+.chicken-nuggets-sauce-ethnic-8-10-span2 {
+  font-family: "Joan-Regular", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+}
+.chicken-nuggets-sauce-ethnic-8-10-span3 {
+  font-family: "Lalezar-Regular", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+}
+.div24 {
+  color: #ffffff;
+  text-align: center;
+  font-family: "Lalezar-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  position: relative;
+  align-self: stretch;
+  height: 32.5px;
+}
+.frame10 {
+  flex-shrink: 0;
+  width: 124.89px;
+  height: 53.46px;
+  position: static;
+}
+.div25 {
+  color: #ffffff;
+  text-align: center;
+  font-family: "Joan-Regular", sans-serif;
+  font-size: 40px;
+  font-weight: 400;
+  position: absolute;
+  left: 133.67px;
+  top: 21550.01px;
+  width: 124.89px;
+  height: 53.46px;
+}
+.div26 {
+  color: #ffffff;
+  text-align: center;
+  font-family: "Joan-Regular", sans-serif;
+  font-size: 40px;
+  font-weight: 400;
+  position: relative;
+  align-self: stretch;
+  height: 58.7px;
+}
+.coca-cola-zero-sprite-250-ml-2-50 {
+  color: #ffffff;
+  text-align: center;
+  position: relative;
+  align-self: stretch;
+  height: 175.65px;
+}
+.coca-cola-zero-sprite-250-ml-2-50-span {
+  font-family: "Joan-Regular", sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+}
+.coca-cola-zero-sprite-250-ml-2-50-span2 {
+  font-family: "Joan-Regular", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+}
+.coca-cola-zero-sprite-250-ml-2-50-span3 {
+  font-family: "Lalezar-Regular", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+}
+.fanta-250-ml-2-50 {
+  color: #ffffff;
+  text-align: center;
+  position: relative;
+  align-self: stretch;
+  height: 153px;
+}
+.fanta-250-ml-2-50-span {
+  font-family: "Joan-Regular", sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+}
+.fanta-250-ml-2-50-span2 {
+  font-family: "Joan-Regular", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+}
+.fanta-250-ml-2-50-span3 {
+  font-family: "Lalezar-Regular", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+}
+.schwepps-250-ml-2-50 {
+  color: #ffffff;
+  text-align: center;
+  position: relative;
+  align-self: stretch;
+  height: 131.46px;
+}
+.schwepps-250-ml-2-50-span {
+  font-family: "Joan-Regular", sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+}
+.schwepps-250-ml-2-50-span2 {
+  font-family: "Joan-Regular", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+}
+.schwepps-250-ml-2-50-span3 {
+  font-family: "Lalezar-Regular", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+}
+._1-lt-1-80 {
+  color: #ffffff;
+  text-align: center;
+  position: relative;
+  align-self: stretch;
+  height: 131.46px;
+}
+._1-lt-1-80-span {
+  font-family: "Joan-Regular", sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+}
+._1-lt-1-80-span2 {
+  font-family: "Joan-Regular", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+}
+._1-lt-1-80-span3 {
+  font-family: "Lalezar-Regular", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+}
+._1-5-lt-1-50 {
+  color: #ffffff;
+  text-align: center;
+  position: relative;
+  align-self: stretch;
+  height: 131.46px;
+}
+._1-5-lt-1-50-span {
+  font-family: "Joan-Regular", sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+}
+._1-5-lt-1-50-span2 {
+  font-family: "Joan-Regular", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+}
+._1-5-lt-1-50-span3 {
+  font-family: "Lalezar-Regular", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+}
+.amita-fun-200-ml-1-80 {
+  color: #ffffff;
+  text-align: center;
+  position: relative;
+  align-self: stretch;
+  height: 131.46px;
+}
+.amita-fun-200-ml-1-80-span {
+  font-family: "Joan-Regular", sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+}
+.amita-fun-200-ml-1-80-span2 {
+  font-family: "Joan-Regular", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+}
+.amita-fun-200-ml-1-80-span3 {
+  font-family: "Lalezar-Regular", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+}
+.div27 {
+  color: #ffffff;
+  text-align: center;
+  font-family: "Joan-Regular", sans-serif;
+  font-size: 40px;
+  font-weight: 400;
+  position: relative;
+  align-self: stretch;
+  height: 58.93px;
+}
+._500-ml-3-80 {
+  color: #ffffff;
+  text-align: center;
+  position: relative;
+  align-self: stretch;
+  height: 131.46px;
+}
+._500-ml-3-80-span {
+  font-family: "Joan-Regular", sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+}
+._500-ml-3-80-span2 {
+  font-family: "Joan-Regular", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+}
+._500-ml-3-80-span3 {
+  font-family: "Lalezar-Regular", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+}
+.frame11 {
+  flex-shrink: 0;
+  width: 177.58px;
+  height: 54.51px;
+  position: static;
+}
+.div28 {
+  color: #ffffff;
+  text-align: center;
+  font-family: "Joan-Regular", sans-serif;
+  font-size: 40px;
+  font-weight: 400;
+  position: absolute;
+  left: 107.33px;
+  top: 23307.05px;
+  width: 177.58px;
+  height: 54.51px;
+}
+.amstel-500-ml-3-50 {
+  color: #ffffff;
+  text-align: center;
+  position: relative;
+  align-self: stretch;
+  height: 119.51px;
+}
+.amstel-500-ml-3-50-span {
+  font-family: "Joan-Regular", sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+}
+.amstel-500-ml-3-50-span2 {
+  font-family: "Joan-Regular", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+}
+.amstel-500-ml-3-50-span3 {
+  font-family: "Lalezar-Regular", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+}
+.amstel-free-500-ml-3-30 {
+  color: #ffffff;
+  text-align: center;
+  position: relative;
+  align-self: stretch;
+  height: 119.51px;
+}
+.amstel-free-500-ml-3-30-span {
+  font-family: "Joan-Regular", sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+}
+.amstel-free-500-ml-3-30-span2 {
+  font-family: "Joan-Regular", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+}
+.amstel-free-500-ml-3-30-span3 {
+  font-family: "Lalezar-Regular", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+}
+.heineken-500-ml-3-80 {
+  color: #ffffff;
+  text-align: center;
+  position: relative;
+  align-self: stretch;
+  height: 119.51px;
+}
+.heineken-500-ml-3-80-span {
+  font-family: "Joan-Regular", sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+}
+.heineken-500-ml-3-80-span2 {
+  font-family: "Joan-Regular", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+}
+.heineken-500-ml-3-80-span3 {
+  font-family: "Lalezar-Regular", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+}
+._500-ml-3-30 {
+  color: #ffffff;
+  text-align: center;
+  position: relative;
+  align-self: stretch;
+  height: 119.51px;
+}
+._500-ml-3-30-span {
+  font-family: "Joan-Regular", sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+}
+._500-ml-3-30-span2 {
+  font-family: "Joan-Regular", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+}
+._500-ml-3-30-span3 {
+  font-family: "Lalezar-Regular", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+}
+.weiss-500-ml-3-80 {
+  color: #ffffff;
+  text-align: center;
+  position: relative;
+  align-self: stretch;
+  height: 119.51px;
+}
+.weiss-500-ml-3-80-span {
+  font-family: "Joan-Regular", sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+}
+.weiss-500-ml-3-80-span2 {
+  font-family: "Joan-Regular", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+}
+.weiss-500-ml-3-80-span3 {
+  font-family: "Lalezar-Regular", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+}
+.fischer-500-ml-3-80 {
+  color: #ffffff;
+  text-align: center;
+  position: relative;
+  align-self: stretch;
+  height: 121.6px;
+}
+.fischer-500-ml-3-80-span {
+  font-family: "Joan-Regular", sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+}
+.fischer-500-ml-3-80-span2 {
+  font-family: "Joan-Regular", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+}
+.fischer-500-ml-3-80-span3 {
+  font-family: "Lalezar-Regular", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+}
+._500-ml-3-802 {
+  color: #ffffff;
+  text-align: center;
+  position: relative;
+  align-self: stretch;
+  height: 121.6px;
+}
+._500-ml-3-802-span {
+  font-family: "Joan-Regular", sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+}
+._500-ml-3-802-span2 {
+  font-family: "Joan-Regular", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+}
+._500-ml-3-802-span3 {
+  font-family: "Lalezar-Regular", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+}
+._500-ml-3-802-span {
+  font-family: "Joan-Regular", sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+}
+._500-ml-3-802-span2 {
+  font-family: "Joan-Regular", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+}
+._500-ml-3-802-span3 {
+  font-family: "Lalezar-Regular", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+}
+.radler-500-ml-3-80 {
+  color: #ffffff;
+  text-align: center;
+  position: relative;
+  align-self: stretch;
+  height: 121.6px;
+}
+.radler-500-ml-3-80-span {
+  font-family: "Joan-Regular", sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+}
+.radler-500-ml-3-80-span2 {
+  font-family: "Joan-Regular", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+}
+.radler-500-ml-3-80-span3 {
+  font-family: "Lalezar-Regular", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+}
+.weiss-500-ml-3-802 {
+  color: #ffffff;
+  text-align: center;
+  position: relative;
+  align-self: stretch;
+  height: 121.6px;
+}
+.weiss-500-ml-3-802-span {
+  font-family: "Joan-Regular", sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+}
+.weiss-500-ml-3-802-span2 {
+  font-family: "Joan-Regular", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+}
+.weiss-500-ml-3-802-span3 {
+  font-family: "Lalezar-Regular", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+}
+._330-ml-500-ml-3-30-4-00 {
+  color: #ffffff;
+  text-align: center;
+  position: relative;
+  align-self: stretch;
+  height: 121.6px;
+}
+._330-ml-500-ml-3-30-4-00-span {
+  font-family: "Joan-Regular", sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+}
+._330-ml-500-ml-3-30-4-00-span2 {
+  font-family: "Joan-Regular", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+}
+._330-ml-500-ml-3-30-4-00-span3 {
+  font-family: "Lalezar-Regular", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
 }
